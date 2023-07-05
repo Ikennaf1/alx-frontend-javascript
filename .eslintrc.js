@@ -1,4 +1,5 @@
 module.exports = {
+  parser:  '@typescript-eslint/parser',
   env: {
     browser: false,
     es6: true,
@@ -7,6 +8,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:jest/all',
+    'plugin:@typescript-eslint/recommended',
   ],
   globals: {
     Atomics: 'readonly',
